@@ -50,6 +50,9 @@ namespace PayrollLibrary
             _HoursWorked = 0;
         }
 
+        /// <summary>
+        /// Gets the payment for the hourly employee.
+        /// </summary>
         public override double Payment
         {
             get

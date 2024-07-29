@@ -1,5 +1,5 @@
 ﻿/*
-This file contains the abstract class Employee. This class is the base for the HourlyEmployee and SalariedEmployee classes. It contains the properties and methods that are common to both classes.
+This file contains the abstract class 'Employee'. This class is the base for the HourlyEmployee and SalariedEmployee classes. It contains the properties and methods that are common to both classes.
 */
 
 namespace PayrollLibrary

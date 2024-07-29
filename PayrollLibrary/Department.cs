@@ -43,6 +43,17 @@ namespace PayrollLibrary
             set { _Name = value; }
         }
 
+        /// <summary>
+        /// Gets the list of employees in the department.
+        /// </summary>
+        /// <value>The employees.</value>
+        /// <returns>A list of employees.</returns>
+        /// <example>
+        /// <code>
+        /// Department department = new Department(1, "HR");
+        /// List<Employee> employees = department.Employees;
+        /// </code>
+        /// </example>
         public List<Employee> Employees
         {
             get { return _Employees; }

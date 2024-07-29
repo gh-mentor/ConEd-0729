@@ -12,14 +12,15 @@ namespace PayrollLibrary
         public void ProcessEmployees(Company company)
         {
             foreach (var department in company.Departments)
-            {
                 foreach (var employee in department.Employees)
                 {
-                    // print the employee payment
-                    Console.WriteLine($"{employee.EmployeeDetails}, Payment: {employee.Payment}");
-                    
+                    if (employee.Id != 0)
+                    {
+                        // print the employee payment
+                        Console.WriteLine($"{employee.EmployeeDetails}, Payment: {employee.Payment}");
+                    }
                 }
-            }
         }
     }
+}
 }
